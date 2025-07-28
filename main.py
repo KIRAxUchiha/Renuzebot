@@ -1,3 +1,4 @@
+import os
 from telegram import (
     Update,
     InlineKeyboardButton,
@@ -16,7 +17,7 @@ from telegram.ext import (
 )
 
 # Visible token (as requested)
-BOT_TOKEN = "8437832383:AAHlvPShQagJgWFKfwT0QxALwlGKcy8gTug"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 ADMIN_ID = 958975018  # Qurbonov Asilbek
 
 # Start command
